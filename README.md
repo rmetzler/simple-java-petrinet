@@ -1,7 +1,10 @@
+# Petrinet in Java
+
 This is a really simple Petrinet written in Java.
 
 Here is an example on how to use it and display a it in a really simple and basic "gui".
 
+```java
 package petrinet.gui;
  
 import petrinet.logic.Arc;
@@ -9,10 +12,10 @@ import petrinet.logic.Petrinet;
 import petrinet.logic.Place;
 import petrinet.logic.Transition;
  
-public class ImWechsel {
+public class Alternating {
  
     public static void main(String[] args) {
-        Petrinet pn = new Petrinet("Wechsel");
+        Petrinet pn = new Petrinet("Alternating");
         Transition t1 = pn.transition("t1");
         Transition t2 = pn.transition("t2");
  
@@ -28,3 +31,4 @@ public class ImWechsel {
     }
     
 }
+```
