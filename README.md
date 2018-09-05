@@ -2,7 +2,7 @@
 
 This is a really simple Petrinet written in Java.
 
-Here is an example on how to use it and display a it in a really simple and basic "gui".
+Here is an example on how to use it and display it in a really simple and basic "gui".
 
 ```java
 package petrinet.gui;
